@@ -1,7 +1,8 @@
-#
+#3a. Create a script file called file properties that reads a filename entered and outputs it
+properties.
 if [ -e $1 ]
 then
-set -- `ls ld $1`
+set -- `ls -ld $1`
 echo "permissions are:$1"
 echo "File links count is:$2"
 echo "user name is:$3"
